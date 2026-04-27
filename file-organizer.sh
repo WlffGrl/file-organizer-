@@ -4,16 +4,16 @@
 # Automatically moves downloaded files to folders based on their format
 
 # Configuration
-DOWNLOAD_DIR="$HOME/Downloads"
+DOWNLOAD_DIR="/mnt/deltaron/DocumentStorage/Downloads"
 WATCH_INTERVAL=5  # Check every 5 seconds
 
 # Destination folders
-VIDEO_DIR="$HOME/Downloads/Video"
-AUDIO_DIR="$HOME/Downloads/Audio"
-IMAGES_DIR="$HOME/Downloads/Images"
-DOCUMENTS_DIR="$HOME/Downloads/Documents"
-ARCHIVES_DIR="$HOME/Downloads/Archives"
-PROGRAMS_DIR="$HOME/Downloads/Programs"
+VIDEO_DIR="$DOWNLOAD_DIR/Video"
+AUDIO_DIR="$DOWNLOAD_DIR/Audio"
+IMAGES_DIR="$DOWNLOAD_DIR/Images"
+DOCUMENTS_DIR="$DOWNLOAD_DIR/Documents"
+ARCHIVES_DIR="$DOWNLOAD_DIR/Archives"
+PROGRAMS_DIR="$DOWNLOAD_DIR/Programs"
 
 # Create destination folders if they don't exist
 mkdir -p "$VIDEO_DIR"
